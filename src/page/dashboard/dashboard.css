@@ -6,7 +6,7 @@
 
 .bg-dashboard {
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@
 }
 .input-dashboard {
     width: 50%;
-    height: 20px;
+    height: 70%;
     border-bottom: 1px solid;
     background-color: transparent;
 }
@@ -109,6 +109,9 @@
     display: none;
 }
 @media screen and (min-width:920px){
+    .bg-dashboard{
+        height: 100vh;
+    }
     .container-dashboard{
         width: 60%;
     }

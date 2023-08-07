@@ -39,11 +39,11 @@ const CartItem = ({ item }) => {
                     <div className='cart-item-name'>{name}</div>
                     <div className='cart-item-price'>{formatPriceToIDR(getTotalPrice())}</div>
                     <button className='btn-decrease' onClick={handleDecrease}>
-                        <PiMinusCircle size={35} />
+                        <PiMinusCircle size={28} />
                     </button>
                     <div className='cart-item-quantity'>Quantity: {quantity}</div>
                     <button className='btn-increase' onClick={handleIncrease}>
-                        <BsPlusCircle size={29} />
+                        <BsPlusCircle size={22} />
                     </button>
                     <button className='cart-item-remove' onClick={handleRemove}>
                         <FaTrash size={20} />
