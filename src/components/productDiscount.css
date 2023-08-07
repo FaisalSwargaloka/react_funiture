@@ -1,0 +1,215 @@
+.container-discount{
+    width: 100%;
+    height: 45vh;
+    padding-left: 0;
+    display: flex;
+    margin-top: -30px;
+}
+.section-item-left{
+    width: 50%;
+    background-color: rgb(71, 87, 68);
+    height: 330px;
+    margin-top: 50px;
+    padding-top: 1px;
+}
+.section-item-left:hover{
+    background-color: rgb(52, 105, 109);
+}
+.articel-item{
+    width: 90%;
+    padding-top: 1px;
+    position: relative;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 2rem;
+}
+.huge-sale {
+    font-size: 3rem;
+    color: aliceblue;
+}
+.discount {
+    font-size: 3rem;
+    color: aliceblue;
+
+}
+.articel-item p {
+    font-size: 1em;
+    margin-top: 1rem;
+    color: aliceblue;
+}
+.btn-discount-product{
+    color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.btn-discount-product:hover{
+    background-color: rgb(51, 50, 50);
+}
+.section-item-right {
+    width: 50%;
+    background-color: rgb(126, 122, 122);
+    height: 330px;
+    margin-top: 50px;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+}
+.section-item-right:hover{
+    background-color: rgb(61, 92, 61);
+}
+.img-discount {
+    width: 70%;
+    height: 520px;
+    margin-top: -90px;
+}
+
+@media only screen and (max-width: 600px) {
+    .section-item-left{
+        height: 250px;
+    }
+    .articel-item{
+        width: 98%;
+        height: 240px;
+        margin-top: 3px;
+        margin-left: 4px;
+    }
+    .huge-sale {
+        font-size: 30px;
+    }
+    .discount {
+        font-size: 20px;
+    
+    }
+    .articel-item p {
+        font-size: 13px;
+    }
+    .btn-discount-product{
+        color: aliceblue;
+        font-size: 15px;
+    }
+    .section-item-right {
+        height: 250px;
+    }
+    .img-discount{
+        width: 70%;
+        height: 20rem;
+        margin-top: -2rem;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .section-item-left{
+        height: 250px;
+    }
+    .articel-item{
+        width: 98%;
+        height: 240px;
+        margin-top: 3px;
+        margin-left: 4px;
+    }
+    .huge-sale {
+        font-size: 40px;
+    }
+    .discount {
+        font-size: 30px;
+    
+    }
+    .articel-item p {
+        font-size: 16px;
+    }
+    .btn-discount-product{
+        color: aliceblue;
+        font-size: 15px;
+    }
+    .section-item-right {
+        height: 250px;
+    }
+    .img-discount{
+        width: 70%;
+        height: 20rem;
+        margin-top: -2rem;
+    }
+}
+@media only screen and (min-width: 992px){
+    .huge-sale {
+        font-size: 45px;
+    }
+    .discount {
+        font-size: 35px;
+    
+    }
+    .articel-item p {
+        font-size: 20px;
+    }
+    .btn-discount-product{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .container-discount{
+        width: 100%;
+        height: 45vh;
+        padding-left: 0;
+        display: flex;
+        margin-top: -30px;
+    }
+    .section-item-left{
+        width: 50%;
+        background-color: rgb(71, 87, 68);
+        height: 330px;
+        margin-top: 50px;
+        padding-top: 1px;
+    }
+
+    .articel-item{
+        width: 90%;
+        padding-top: 1px;
+        position: relative;
+        height: auto;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        margin-left: 2rem;
+    }
+    .huge-sale {
+        font-size: 3rem;
+        color: aliceblue;
+    }
+    .discount {
+        font-size: 3rem;
+        color: aliceblue;
+    
+    }
+    .articel-item p {
+        font-size: 1em;
+        margin-top: 1rem;
+        color: aliceblue;
+    }
+    .btn-discount-product{
+        color: aliceblue;
+        border-width: 1px;
+        border-style: solid;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .section-item-right {
+        width: 50%;
+        background-color: rgb(126, 122, 122);
+        height: 330px;
+        margin-top: 50px;
+        padding-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+    .img-discount {
+        width: 70%;
+        height: 520px;
+        margin-top: -90px;
+    }
+}

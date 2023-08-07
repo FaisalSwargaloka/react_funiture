@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+.navbar {
+    background-color: transparent ;
+    height: 60px;
+}
+.navbar-brand {
+    font-size: 30px;
+    color: rgb(73, 72, 72);
+}
+.NavLink {
+    text-decoration: none;
+    color: rgb(73, 72, 72);
+    margin-left: 15px;
+    font-size: 20px;
+}
+.NavLink:hover{
+    color: rgb(82, 84, 85);
+}
+.active {
+    color: rgb(77, 82, 87);
+    text-decoration: underline rgb(43, 39, 39);
+}
+.btn-login-nav{
+    margin-right: 20px;
+    width: 5rem;
+    background-color: darkslategray;
+}
+.btn-login-nav:hover{
+    background-color: cadetblue;
+}
+.link-profile {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}

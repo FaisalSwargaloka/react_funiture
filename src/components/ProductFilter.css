@@ -1,0 +1,37 @@
+.Container-heading {
+    width: 100%;
+    padding-top: 5rem;
+    height: auto;
+    border-bottom: 3px solid;
+}
+.allProduct {
+    font-size: 50px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.Container-heading h2 {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.droptown {
+    background-color: aliceblue;
+    width: 400px;
+    height: 50px;
+    border: none;
+    appearance: none;
+    margin-left: 30px;
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+@media screen and (max-width: 450px ){
+    .droptown {
+        width: 70%;
+        height: 50px;
+        border: none;
+        appearance: none;
+        margin-left: 30px;
+        border-bottom: 2px solid;
+        outline: none;
+    }
+}

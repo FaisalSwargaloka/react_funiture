@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family:  'Roboto Condensed', sans-serif;
+}
+.container-contact {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+}
+
+/* Contact Header */
+
+.section-left {
+    width: 40%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.image-contact {
+    width: 100%;
+    height: 100vh;
+}
+.section-right {
+    width: 60%;
+    height: 100vh;
+}
+.text-contact-heading {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.text-contact-heading h1 {
+    width: 70%;
+    margin-left: 20px;
+    font-size: 70px;
+    color: black;
+}
+.text-contact-heading p {
+    font-size: 18px;
+    color: rgb(29, 29, 29);
+    margin-right: 30px;
+    width: 100%;
+}
+
+/* Contact Header End */
+
+/* Contact About  */
+.contact {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.text-aboutContact{
+    width: 40%;
+    height: 500px;
+}
+.text-aboutContact h1 {
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+}
+.text-aboutContact ul {
+    margin-left: 20px;
+    width: 280px;
+    height: 250px;
+}
+.text-aboutContact li {
+    font-size: 20px;
+    color: rgb(29, 29, 29);
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.data {
+    font-size: 20px;
+    color: rgb(29, 29, 29);
+    margin-top: 10px;
+}
+.sosmed {
+    width: 270px;
+    height: 70px;
+    display: flex;
+}
+.icon-sosmed {
+    width: 45px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Contact About End */
+
+.contact-form {
+    width: 60%;
+    height: 500px;
+    justify-content: center;
+}
+.contact-form h1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .container-contact {
+        width: 100%;
+        height: auto;
+        background-color:rgb(253, 253, 253);
+    }
+    .section-left{
+        display: none;
+    }
+    .section-right {
+        width: 100%;
+        height: auto;
+    }
+    .text-contact-heading {
+        background-color: rgb(65, 63, 57);
+        padding-top: 35px;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        flex-direction: column;
+        
+    }
+    .text-contact-heading h1 {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .text-contact-heading p {
+        text-align: center;
+        font-size: 13px;
+        margin-left: 0;
+        color: rgb(194, 190, 190);
+    }
+    .contact {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-aboutContact{
+        margin-top: 2rem;
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+    .text-aboutContact h1 {
+        font-size: 25px;
+        color: black;
+        margin-bottom: 7rem;
+        color: rgb(18, 18, 19);
+    }
+    .text-aboutContact ul {
+        width: 100%;
+        height: auto;
+    }
+    .text-aboutContact li {
+        font-size: 15px;
+        color: rgb(29, 29, 29);
+        margin-bottom: -45px;
+        margin-top: -20px;
+        text-align: left;
+        color: rgb(24, 24, 24);
+    }
+    .data {
+        font-size: 15px;
+        color: rgb(29, 29, 29);
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .sosmed {
+        margin-top: 6rem;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(65, 63, 57);
+    }
+    .icon-sosmed {
+        margin-top: 6px;
+        width: 45px;
+        height: 40px;
+        color: rgb(246, 255, 255);        
+    }
+    .contact-form {
+        height: auto;
+        margin-bottom: 20px;
+        width: 100%; 
+    }
+    .contact-form h1 {
+        font-size: 25px;
+        color: black;
+        text-align: left;
+        margin-left: 20px;
+        color: rgb(39, 40, 41);
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 600px){
+    .text-contact-heading{
+        width: 100%;
+        height: 220px;
+    }
+    .text-contact-heading h1 {
+        font-size: 30px;
+    }
+    .text-contact-heading p {
+       font-size: 10px;
+    }
+    .text-aboutContact h1 {
+        font-size: 18px;
+    }
+    .text-aboutContact li {
+        font-size:18px;
+    }
+    .contact-form {
+        margin-top: 10em;
+        height: auto;
+        width: 100%;       
+        height: auto;
+    }
+    .contact-form h1{
+        font-size: 18px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-aboutContact{
+        width: 100%;
+        margin-top:40px;
+    }
+}
+@media screen and (min-width: 780px){
+    .text-contact-heading h1 {
+        font-size: 40px;
+    }
+    .text-contact-heading p {
+       font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .text-contact-heading {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .text-contact-heading h1 {
+        width: 70%;
+        margin-left: 20px;
+        font-size: 70px;
+        color: black;
+    }
+    .text-contact-heading p {
+        font-size: 20px;
+        color: rgb(29, 29, 29);
+        margin-right: 30px;
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text-aboutContact{
+        width: 40%;
+        height: 500px;
+    }
+    .text-aboutContact h1 {
+        margin-left: 20px;
+        font-size: 35px;
+        color: black;
+        margin-bottom: 2rem;
+    }
+    .text-aboutContact ul {
+        margin-left: 20px;
+        width: 280px;
+        height: 250px;
+    }
+    .text-aboutContact li {
+        font-size: 20px;
+        color: rgb(29, 29, 29);
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    .contact-form {
+        margin-top:-40px;
+        height: auto;
+        width: 60%;       
+        height: auto;
+        justify-content: center;
+    }
+    .contact-form h1{
+        margin-bottom: 50px;
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .sosmed {
+        width: 270px;
+        height: 70px;
+        display: flex;
+        margin-left: 20px;
+    }
+    .icon-sosmed {
+        width: 45px;
+        height: 40px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 1600px){
+    .text-contact-heading {
+        width: 100%;
+        height: 335px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+}

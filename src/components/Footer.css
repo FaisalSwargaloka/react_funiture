@@ -1,0 +1,218 @@
+.container-footer{
+    width: 100%;
+    height: 45vh;
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: rgb(70, 57, 41);
+    display: flex;
+}
+.section-footer {
+    width: 100%;
+    height: 370px;
+    display: flex;
+}
+.logo-footer {
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    font-weight: bold;
+    margin-top: 150px;
+    color: #f1ebe5;
+    text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+}
+.footer{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+}
+
+.titlle-footer{
+    text-align: left;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+}
+.footer li{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+    justify-content: center;
+    color: rgb(235, 235, 235);
+}
+.footer li:hover{
+    color: #c4b59d;
+    cursor: pointer;
+}
+.footer-sosmed{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-sosmed{
+    width: 40px;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 1em;
+}
+.img-sosmed:hover {
+    background-color: #8a8989;
+}
+.titlle-sosmed {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+}
+.copyright-footer {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 25px;
+    color: rgb(53, 54, 54);
+    text-align: center;
+    padding-top: 5px;
+}
+@media only screen and (max-width: 600px){
+    .container-footer{
+        margin-top: -8rem;
+        display: flex;
+        height: auto;
+        position: relative;
+    }
+    .section-footer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -2rem;
+        height: auto;
+    }
+    .logo-footer{
+        font-size: 25px;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+    .footer{
+        margin-bottom: 20rem;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+    }
+    .titlle-footer{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 2rem;
+        margin-left: 30px;
+    }
+    .footer ul {
+        width: 100%;
+        height: 300px;
+    }
+    .footer li{
+        text-align: center;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .titlle-sosmed {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .img-sosmed{
+        width: 25px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .container-footer{
+        margin-top: -8rem;
+        display: flex;
+        height: auto;
+        position: relative;
+    }
+    .section-footer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -1rem;
+        height: auto;
+    }
+    .logo-footer{
+        font-size: 35px;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+    .footer{
+        margin-bottom: 12rem;
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        margin-top: -3rem;
+    }
+    .titlle-footer{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    .footer ul {
+        margin-top: -2rem;
+        width: 100%;
+        height: 300px;
+        padding-top: 0rem;
+    }
+    .footer li{
+        text-align: center;
+        font-size: 10px;
+        margin-bottom: 1rem;
+    }
+    .titlle-sosmed {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .img-sosmed{
+        width: 35px;
+    }
+}
+@media only screen and (min-width: 720px){
+    .footer ul {
+        margin-top: -2rem;
+        width: 100%;
+        height: 400px;
+        padding-top: 0rem;
+    }
+    .footer li{
+        text-align: center;
+        font-size: 10px;
+        margin-bottom: -0;
+    }
+}
+
+@media only screen and (min-width: 920px) {
+    .container-footer{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        padding-top: 30px;
+        background-color: rgb(70, 57, 41);
+        display: flex;
+    }
+    
+    .footer ul{
+        width: 100%;
+        height: 300px;
+        margin-top: 5rem;
+    }
+    .footer li{
+        margin-top: 2rem;
+        font-size: 15px;
+    }
+    .titlle-footer{
+        margin-bottom: -5em;
+        margin-left: 1px;
+    }
+}
